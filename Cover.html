@@ -4,19 +4,24 @@
     <meta charset="utf-8" />
  <script src='https://kit.fontawesome.com/0bcc5d5c22.js'></script> 
 </head>
-    <header> 
-        <h2> Welcome to Caesar's! Your Personal Helper to ensure protection for you and everything connected to you! 
-        </h2> </header>
-<section> 
+  
+<!---- BODY section ---> 
 <body>
+     <div class= "header"> 
+        <h2> Welcome to Caesar's! Your Personal Helper to ensure protection for you and everything connected to you! 
+        </h2> </div>
+ <div class = "main"> 
      <i class="fas fa-lock" style= 'font-size:60px;color:white'></i> 
     <h1> Caesar Helper </h1>
-    </section> 
-    <footer> <p>footer</p> 
-    </footer> 
+    </div> 
+    <div class= "footer"> 
+        <h3> footer </h3> 
+    </div> 
+    </body> 
+    <!---- CSS Section ----> 
     <style>
         body { 
-   background-image: url('laptop2.jpg'); 
+   background-image: url('laptop2.jpg'); /*Image is used*/ 
    background-color: #739900; /*if the image doesn't show up */
    background-repeat: no-repeat, repeat; /*re-size the image to fit on the screen*/
    background-position: center; 
@@ -50,6 +55,22 @@ h1 {
 html {
     scroll-behavior: smooth; 
         }
+       *{ 
+          box-sizing: border-box;  
+        }
+  .header{
+      border: 30px solid black; 
+      padding: 30px; 
+        }
+  .main{ 
+      border: 30px solid black;
+      padding: 30px; 
+      width: 75%; 
+      float: left; 
+        } 
+  .footer{
+      border: 30px solid black;
+      padding:10px; 
+        }
     </style>
-</body>
 </html>
